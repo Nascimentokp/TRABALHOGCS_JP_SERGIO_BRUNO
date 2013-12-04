@@ -1,20 +1,17 @@
-<Nome do Projeto>
+Certidão Concurso Público
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
+|_02/12/2013_|_1.0_|_Criação do documento_|_João Paulo_|
 |_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
 
 
@@ -22,21 +19,24 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+O Plano de Gerenciamento de Configuração explica todas as atividades do Gerenciamento de Controle de Configuração e Mudança que serão realizadas durante o ciclo de vida do produto. Suas atividades envolvem reconhecer a configuração do software, manter sua integridade durante o projeto e controlar sistematicamente as mudanças.
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+A finalidade deste documento é criar um padrão a ser seguido por todos os membros da equipe com o propósito de garantir o maior controle do produto no decorrer do projeto. Para realizar serão detalhados os recursos necessários (equipes, ferramentas e computadores), as responsabilidades e o cronograma de atividades.
+
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da equipe responsável pelo desenvolvimento do sistema para promover maior eficiência nas atividades de emissão de certidão da 5ª Região da Justiça Federal, através do cadastro das informações, automatização e controle das certidões, além de considerável economia financeira decorrente de redução do gasto com impressões em papel, gasto com materiais de expediente para manter e controlar as certidões e o gasto de mão-de-obra dos funcionários do cadastro da Justiça Federal.
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+SCRUM - É um processo ágil que permite manter o foco na entrega do maior valor de negócio, no menor tempo possível.
+GC - Gerência de Configuração.
+CCM - Comitê para o Controle de Mudanças.
+Baseline - Conjunto de artefatos que recebe uma aprovação de estabilidade. Um baseline é usado como uma base no desenvolvimento das próximas fases dos artefatos e tem suas modificações controladas por um processo.
+
 
 1.4 Referências
 ---------------
