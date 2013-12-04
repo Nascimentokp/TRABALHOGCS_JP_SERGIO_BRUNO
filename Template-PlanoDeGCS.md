@@ -107,9 +107,8 @@ _[Descreva a participação e os procedimentos para processar solicitações e a
 
 4. Padrões e Procedimentos
 ==========================
-_[ Testando Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
 
-
+Nesta seção, serão apresentados os padrões utilizados no projeto tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento (sistema, documentos, e baselines).
 
 5. Treinamento e Recursos
 =========================
