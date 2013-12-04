@@ -113,7 +113,9 @@ _[ Testando Descreva os padrões e procedimentos que devem ser seguidos no proje
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+Descrição dos treinamentos efetuados para os integrantes do Grupo.
+
+Treinamento no Repositório.: 	Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo, tendo como alvo toda a equipe.
 
 
 
