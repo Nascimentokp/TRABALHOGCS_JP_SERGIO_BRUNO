@@ -109,9 +109,13 @@ _[Descreva a participação e os procedimentos para processar solicitações e a
 ==========================
 
 Nesta seção, serão apresentados os padrões utilizados no projeto tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento (sistema, documentos, e baselines).
+
 Projeto .:        certidaoConcursosPublicos
+
 Identificador.: PRJ SADES 013 
-Caminho.:      http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/projetos/PRJ SADES 013 - certidaoConcursosPublicos
+
+Caminho.:      
+http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/projetos/PRJ SADES 013 - certidaoConcursosPublicos
 
 Identificadores de Tipos de Artefatos
 Identificador  - Descrição
