@@ -116,7 +116,9 @@ Caminho.:      http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/proje
 Identificadores de Tipos de Artefatos
 Identificador  - Descrição
 ARQ  - Documento de Arquitetura do Sistema
+=========================
 DOC  - Documento não classificado
+=========================
 I18N  - Tabela de Internacionalização
 MAD  - Modelo de Análise e Projeto
 MAN  - Manual
