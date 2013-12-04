@@ -109,6 +109,21 @@ _[Descreva a participação e os procedimentos para processar solicitações e a
 ==========================
 
 Nesta seção, serão apresentados os padrões utilizados no projeto tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento (sistema, documentos, e baselines).
+Projeto .:        certidaoConcursosPublicos
+Identificador.: PRJ SADES 013 
+Caminho.:      http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/projetos/PRJ SADES 013 - certidaoConcursosPublicos
+
+Identificadores de Tipos de Artefatos
+Identificador  - Descrição
+ARQ  - Documento de Arquitetura do Sistema
+DOC  - Documento não classificado
+I18N  - Tabela de Internacionalização
+MAD  - Modelo de Análise e Projeto
+MAN  - Manual
+MBD  - Esquema do Banco de Dados
+MRT  - Matriz de Ratreabilidade de Requisitos
+REQ  - Especificação de Requisitos de Software
+TSTD - Projeto de Testes
 
 5. Treinamento e Recursos
 =========================
