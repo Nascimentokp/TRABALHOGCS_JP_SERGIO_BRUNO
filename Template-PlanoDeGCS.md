@@ -116,16 +116,23 @@ Caminho.:      http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/proje
 Identificadores de Tipos de Artefatos
 Identificador  - Descrição
 ARQ  - Documento de Arquitetura do Sistema
-=========================
+
 DOC  - Documento não classificado
-=========================
+
 I18N  - Tabela de Internacionalização
+
 MAD  - Modelo de Análise e Projeto
+
 MAN  - Manual
+
 MBD  - Esquema do Banco de Dados
+
 MRT  - Matriz de Ratreabilidade de Requisitos
+
 REQ  - Especificação de Requisitos de Software
+
 TSTD - Projeto de Testes
+
 
 5. Treinamento e Recursos
 =========================
