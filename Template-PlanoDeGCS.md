@@ -13,6 +13,7 @@ Histórico de Versões
 |--------------------|-------------|------------------------|---------------|
 |_02/12/2013_|_1.0_|_Criação do documento_|_João Paulo_|
 |_03/12/2013_|_1.1_|_Atualizar documento_|_João Paulo_|
+|_03/12/2013_|_1.2_|_Atualizar documento_|_João Paulo_|
 
 
 
@@ -56,18 +57,60 @@ Na seção 6 ( Auditorias de Configuração): Descreve o cronograma das auditori
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+Papéis                                                             
+Gerente de configuração
+Equipe
+João Paulo
+Responsabilidade
+Estabelecer Políticas de GC
+Escrever Plano de GC
+Configurar Ambiente de GC
+Criar Baselines
+
+Papéis                                                             
+CCM
+Equipe
+João Paulo
+Sergio Rodrigues
+Bruno Duarte
+Responsabilidade
+Estabelecer Processo de Controle de Mudanças
+Revisar Solicitação de Mudança
+
+Papéis                                                             
+Desenvolvedor
+Equipe
+João Paulo
+Bruno Duarte
+Sergio Rodrigues
+Responsabilidade
+Seguir os padrões e procedimentos definidos no Plano de Gerência de Configuração
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
- 
 
+Ferramenta:
+Subversion - Sistema de controle de versão
+TortoiseSVN - Acesso ao repositório, é o Client para o Subversion integrado ao Windows.
+ 
+Ambiente: 
+Sistema operacional - Windows 7
+Pacote Office 2010
+Antvírus: Avast
+Controle de versão: Subversion 1.8.5
+Plataforma de desenvolvimento JAVA: Eclipse
+Banco de dados: PostgreSQL
+Comunicação: Gmail
+
+A estrutura do ambiente será da seguinte forma:
+
+Desenvolvimento: É o ambiente que servirá para o desenvolvimento do Sistema.	O componente atingirá a maturidade quando os requisitos forem supridos e testados pelos desenvolvedores através dos testes unitários.
+Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
+Integração: É o ambiente que servirá para os testes de integração.
+Quando a comunicação entre os módulos atinge o um estagio satisfatório de funcionamento.
+Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
+Banco de Dados: É o ambiente onde conterá o Banco de dados.
+Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
