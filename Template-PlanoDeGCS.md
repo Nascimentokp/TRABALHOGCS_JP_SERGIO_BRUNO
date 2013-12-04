@@ -12,7 +12,7 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |_02/12/2013_|_1.0_|_Criação do documento_|_João Paulo_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|_03/12/2013_|_1.1_|_Atualizar documento_|_João Paulo_|
 
 
 
@@ -36,16 +36,19 @@ SCRUM - É um processo ágil que permite manter o foco na entrega do maior valor
 GC - Gerência de Configuração.
 CCM - Comitê para o Controle de Mudanças.
 Baseline - Conjunto de artefatos que recebe uma aprovação de estabilidade. Um baseline é usado como uma base no desenvolvimento das próximas fases dos artefatos e tem suas modificações controladas por um processo.
-
+CM - Controle de Mudanças.
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+Template de Gerenciamento de Configuração.
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
-
+Na seção de 2 (Gerenciamento de configuração de software): São relacionados os papéis, as responsabilidades das atividades e as ferramentas dentro da GC da Fábrica.
+Na seção 3 (O Programa de Gerenciamento de Configuração): É apresentado como serão criadas e controladas as Baselines.
+Na seção 4  (Padrões e Procedimentos): Descreve os padrões e procedimentos que devem ser seguidos no projeto.
+Na seção 5 (Treinamento e Recursos): Descreve as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.
+Na seção 6 ( Auditorias de Configuração): Descreve o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.
 
 
 2. Gerenciamento de Configuração de Software
