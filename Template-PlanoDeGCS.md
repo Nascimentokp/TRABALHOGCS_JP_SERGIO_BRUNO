@@ -148,7 +148,18 @@ Treinamento no Repositório.: 	Treinamento ensina como acessar o repositório at
 
 6. Auditorias de Configuração
 =============================
+Finalidade
 
  - Determinar que uma baseline contém todos os artefatos necessários
 
  - Determinar que uma baseline atende aos requisitos
+
+Passos:
+
+Executar Auditoria de Configuração Física.
+
+Uma Auditoria de Configuração Física (PCA) identifica os componentes de um produto que serão implantados do Repositório do Projeto.  Os passos são:
+
+ - Identificar a baseline a ser implantada (geralmente é apenas um nome e/ou número, mas também pode ser uma lista completa de todos os componentes e suas respectivas versões).
+
+ - Confirmar que todos os artefatos necessários, conforme especificado pelo Caso de Desenvolvimento, estão presentes na baseline.  Liste os artefatos ausentes em Descobertas da Auditoria de Configuração.
