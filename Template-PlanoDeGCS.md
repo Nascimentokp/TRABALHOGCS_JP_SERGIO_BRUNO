@@ -119,7 +119,53 @@ Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+#### 3.1.1.1 Nomenclatura dos artefatos
+-----------------------
+Todos os documentos disponibilizados no repositório (exceto o código do sistema, pois este segue um padrão de desenvolvimento) devem ser identificados baseados na seguinte nomenclatura:
+ 
+&lt;ID_ARTEFATO&gt; - &lt;NOME_ARTEFATO&gt;
+
+Onde:
+
+* &lt;ID_ARTEFATO&gt; é a sigla de identificação do artefato conforme Tabela 2.
+* &lt;NOME_ARTEFATO&gt; é nome de identificação do artefato conforme Tabela 2.
+
+| Id do artefato | Nome do artefato	 |
+|----------------|-------------------|
+|APD   |   Ativação de Projeto de Desenvolvimento
+|EOR   |   Especificação de Objetivos e Requisitos
+|LPS   |   Levantamento Preliminar do Software
+|PCP   |   Plano de Comunicação do Projeto
+|PDS   |    Plano de Desenvolvimento de Software
+|PGC   |   Plano de Gerência de Configuração
+|PGQ   |  Plano de Gerência da Qualidade
+|PGR   |   Plano de Gerência de Riscos
+|RAC   |  Relatório de Avaliação do Cliente
+|RAP   |   Relatório de Acompanhamento do Projeto
+|PFM   |  Pedido Formal de Modificação
+|SAI   |  Solicitação de Análise de Impacto
+|RTF   |  Relatório de RTF (Revisão Técnica Formal)
+|DAS   |   Documento de Análise de Software
+|DPS   |   Documento de Projeto de Software
+Tabela 2 - Ids e nomes de documentos
+
+#### 3.1.1.2 Versão dos artefatos
+---------------------------------
+Todos os artefatos (exceto os arquivos de código fonte do programa) deverão ter uma nomenclatura de versionamento segundo o seguinte padrão:
+
+X.YY
+
+Onde:
+* X é um número que representa uma versão final do Artefato;
+* YY é um número que representa uma versão intermediária posterior a uma versão X do artefato.
+
+O versionamento dos artefatos dar-se-á da seguinte forma:
+* a cada versão interdiária o valor de YY aumenta em uma unidade;
+* a cada versão estável do artefato o valor de YY é zerado e o valor de X é incrementado em uma unidade.
+
+#### 3.1.1.3 Outras nomenclaturas
+---------------------------------
+Os artefatos não citados nesta seção terão sua identificação padronizada e diferenciada apenas pelo diretório em que se encontram e não pelo nome do arquivo.
 
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
