@@ -148,6 +148,7 @@ Treinamento no Repositório.: 	Treinamento ensina como acessar o repositório at
 
 6. Auditorias de Configuração
 =============================
-_[Determinar que uma baseline contém todos os artefatos necessários
 
-Determinar que uma baseline atende aos requisitos.]_
+ - Determinar que uma baseline contém todos os artefatos necessários
+
+ - Determinar que uma baseline atende aos requisitos
