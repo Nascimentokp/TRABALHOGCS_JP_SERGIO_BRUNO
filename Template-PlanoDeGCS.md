@@ -148,4 +148,6 @@ Treinamento no Repositório.: 	Treinamento ensina como acessar o repositório at
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+_[Determinar que uma baseline contém todos os artefatos necessários
+
+Determinar que uma baseline atende aos requisitos.]_
