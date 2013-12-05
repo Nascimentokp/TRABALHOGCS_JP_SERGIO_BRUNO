@@ -156,10 +156,20 @@ Finalidade
 
 Passos:
 
-Executar Auditoria de Configuração Física.
+1) Executar Auditoria de Configuração Física.
 
 Uma Auditoria de Configuração Física (PCA) identifica os componentes de um produto que serão implantados do Repositório do Projeto.  Os passos são:
 
  - Identificar a baseline a ser implantada (geralmente é apenas um nome e/ou número, mas também pode ser uma lista completa de todos os componentes e suas respectivas versões).
 
  - Confirmar que todos os artefatos necessários, conforme especificado pelo Caso de Desenvolvimento, estão presentes na baseline.  Liste os artefatos ausentes em Descobertas da Auditoria de Configuração.
+
+2) Executar Auditoria de Configuração Funcional
+
+Uma Auditoria de Configuração Funcional (FCA) confirma que uma baseline atende aos requisitos estabelecidos para ela.  Os passos para a execução dessa auditoria são:
+
+ - Preparar um relatório que liste cada requisito estabelecido para a baseline, seu procedimento de teste correspondente e o resultado de teste (aprovado/reprovado) da baseline.  
+
+ - Confirmar que cada requisito passou por um ou mais testes e que o resultado de todos esses testes foi 'aprovado'.  Em Descobertas da Auditoria de Configuração, liste quaisquer requisitos que não tenham passado por procedimentos de teste e os requisitos que estão com teste incompleto ou que foram reprovados. 
+
+ - Gerar uma lista das CRs estabelecidas para essa baseline.  Confirme que cada CR foi fechada.  Em Descobertas da Auditoria de Configuração, liste quaisquer CRs que não estão fechadas.
