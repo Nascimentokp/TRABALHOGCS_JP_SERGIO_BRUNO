@@ -173,3 +173,17 @@ Uma Auditoria de Configuração Funcional (FCA) confirma que uma baseline atende
  - Confirmar que cada requisito passou por um ou mais testes e que o resultado de todos esses testes foi 'aprovado'.  Em Descobertas da Auditoria de Configuração, liste quaisquer requisitos que não tenham passado por procedimentos de teste e os requisitos que estão com teste incompleto ou que foram reprovados. 
 
  - Gerar uma lista das CRs estabelecidas para essa baseline.  Confirme que cada CR foi fechada.  Em Descobertas da Auditoria de Configuração, liste quaisquer CRs que não estão fechadas.
+
+3) Reportar Descobertas
+
+Se houver alguma discrepância, ela será capturada em Descobertas da Auditoria de Configuração conforme descrito anteriormente.  Além disso, os seguintes passos deverão ser executados:
+
+ - Identificar ações corretivas.  Talvez, isso requeira a entrevista de vários membros da equipe do projeto para que a origem da discrepância e as ações apropriadas sejam identificadas.  
+
+ - Para artefatos ausentes, a ação apropriada é geralmente controlar a configuração do artefato ou criar uma CR ou tarefa que produzirá o artefato ausente.
+
+ - No caso de requisitos não testados ou reprovados no teste, o requisito pode ser estabelecido para uma baseline posterior ou negociado para ser removido do conjunto de requisitos.
+
+ - Para CRs em aberto, a CR pode ser simplesmente fechada, testada ou adiada para uma baseline posterior.
+
+ - Para cada ação corretiva, atribua uma responsabilidade e determine uma data de conclusão.
