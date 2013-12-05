@@ -2,7 +2,7 @@ Certidão Concurso Público
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.0
+Versão 1.03
 ------------------
 
 
@@ -11,9 +11,10 @@ Histórico de Versões
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_02/12/2013_|_1.0_|_Criação do documento_|_João Paulo_|
-|_03/12/2013_|_1.1_|_Atualizar documento_|_João Paulo_|
-|_03/12/2013_|_1.2_|_Atualizar documento_|_João Paulo_|
+|_02/12/2013_|_1.00_|_Criação do documento_|_João Paulo_|
+|_03/12/2013_|_1.01_|_Atualizar documento_|_João Paulo_|
+|_03/12/2013_|_1.02_|_Atualizar documento_|_João Paulo_|
+|_05/12/2013_|_1.03_|_Atualizar documento_|_Bruno Queiroz_|
 
 
 
