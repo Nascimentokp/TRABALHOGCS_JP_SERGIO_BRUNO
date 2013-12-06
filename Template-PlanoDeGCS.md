@@ -121,7 +121,7 @@ Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
 #### 3.1.1.1 Nomenclatura dos artefatos
------------------------
+---------------------------------------
 Todos os documentos disponibilizados no repositório (exceto o código do sistema, pois este segue um padrão de desenvolvimento) devem ser identificados baseados na seguinte nomenclatura:
  
 &lt;ID_ARTEFATO&gt; - &lt;NOME_ARTEFATO&gt;
@@ -169,23 +169,67 @@ O versionamento dos artefatos dar-se-á da seguinte forma:
 Os artefatos não citados nesta seção terão sua identificação padronizada e diferenciada apenas pelo diretório em que se encontram e não pelo nome do arquivo.
 
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
-
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-
+|_Plano de projeto, planos auxiliares, EAP e Cronograma (documentação do projeto)_|_João Paulo_|_O mais cedo possível_|
+|_Requisitos, Especificações, Modelos (documentação de Software)_|_Sérgio_|_Na fase de análise de requisitos_|
+|_Massa de dados de teste_|_Bruno_|_Após a fase de construção_|
+|_Código fonte_|_Bruno_|_durante a fase de construçao_|
 
 ### 3.1.3 Baselines do Projeto
-
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+| Fases                 | Itens de configuração da baseline	     |
+|----------------------------------------|-----------------------|
+|_Iniciação_|_Plano de projeto e planos auxiliares, incluindo Plano de Gerenciamento de Configuração_|
+|_Elaboração_|_Requisitos, Especificações_|
+|_Projeto de Software_|_Modelos, Código fonte (provas de conceito das partes mais complicadas, arquitetura inicial)_|
+|_Construção - 1ª Entrega_|_Código fonte_|
+|_Construção - 2ª Entrega_|_Código fonte_|
+|_Construção - 3ª Entrega_|_Código fonte_|
+|_Transição_|_Executável, documentação do sistema_|
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+| Fases                 | Itens de configuração da baseline	     |
+|----------------------------------------|-----------------------|
+
+<table
+ <tr>
+  <th>Diretório</th>
+  <th>Subdiretório</th>
+  <th>Artefatos</th>
+ </tr>
+ <tr>
+  <td rowspan="3">Documentos</td>
+  <td>Gerência de Configuração</td>
+  <td>Modelo do Plano de Gerenciamento de configuração
+      Notas de Releases
+      Arquivos de aprovação dos documentos
+  </td>
+ </tr>
+ <tr>
+  <td>Gerência de Projetos </td>
+  <td>Documento de Visão
+      Termo de Abertura
+      Plano de Projeto
+      Cronograma
+      Relatório de Status
+      Atas de Reuniões
+      Arquivos de aprovação dos documentos
+  </td>
+ </tr>
+ <tr>
+  <td>Analise e Projeto</td>
+  <td>  Manual de Implantação
+        Documento de Arquitetura
+        Modelo de Banco de Dados
+        Modelo de Análise e Projetos
+        Arquivos de aprovação dos documentos
+  </td>
+ </tr>
+ <tr>
+  <td>Site</td>
+  <td>Fontes</td>
+ </tr>
+</table>
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
