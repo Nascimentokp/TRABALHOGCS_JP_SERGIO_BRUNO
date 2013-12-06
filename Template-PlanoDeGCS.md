@@ -188,8 +188,6 @@ Os artefatos não citados nesta seção terão sua identificação padronizada e
 |_Transição_|_Executável, documentação do sistema_|
 
 ### 3.1.4 Estrutura do Repositório de Versões
-| Fases                 | Itens de configuração da baseline	     |
-|----------------------------------------|-----------------------|
 
 <table
  <tr>
