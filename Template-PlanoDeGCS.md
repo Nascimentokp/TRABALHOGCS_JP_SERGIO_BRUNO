@@ -15,6 +15,7 @@ Histórico de Versões
 |_03/12/2013_|_1.01_|_Atualizar documento_|_João Paulo_|
 |_03/12/2013_|_1.02_|_Atualizar documento_|_João Paulo_|
 |_05/12/2013_|_1.03_|_Atualizar documento_|_Bruno Queiroz_|
+|_07/12/2013_|_1.04_|_Atualizar documento_|_Bruno Queiroz_|
 
 
 
@@ -118,10 +119,11 @@ Configuração: Processador 2.8 GHz, Memória RAM 4GB, HD de 500 GB
 
 3.1 Identificação da Configuração
 ---------------------------------
+
 ### 3.1.1 Métodos de Identificação
-----------------------------------
+
 #### 3.1.1.1 Nomenclatura dos artefatos
----------------------------------------
+
 Todos os documentos disponibilizados no repositório (exceto o código do sistema, pois este segue um padrão de desenvolvimento) devem ser identificados baseados na seguinte nomenclatura:
  
 &lt;ID_ARTEFATO&gt; - &lt;NOME_ARTEFATO&gt;
@@ -151,7 +153,7 @@ Onde:
 Tabela 2 - Ids e nomes de documentos
 
 #### 3.1.1.2 Versão dos artefatos
----------------------------------
+
 Todos os artefatos (exceto os arquivos de código fonte do programa) deverão ter uma nomenclatura de versionamento segundo o seguinte padrão:
 
 X.YY
@@ -165,10 +167,11 @@ O versionamento dos artefatos dar-se-á da seguinte forma:
 * a cada versão estável do artefato o valor de YY é zerado e o valor de X é incrementado em uma unidade.
 
 #### 3.1.1.3 Outras nomenclaturas
----------------------------------
+
 Os artefatos não citados nesta seção terão sua identificação padronizada e diferenciada apenas pelo diretório em que se encontram e não pelo nome do arquivo.
 
 ### 3.1.2 Itens de Configuração
+
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
 |_Plano de projeto, planos auxiliares, EAP e Cronograma (documentação do projeto)_|_João Paulo_|_O mais cedo possível_|
@@ -177,6 +180,7 @@ Os artefatos não citados nesta seção terão sua identificação padronizada e
 |_Código fonte_|_Bruno_|_durante a fase de construçao_|
 
 ### 3.1.3 Baselines do Projeto
+
 | Fases                 | Itens de configuração da baseline	     |
 |----------------------------------------|-----------------------|
 |_Iniciação_|_Plano de projeto e planos auxiliares, incluindo Plano de Gerenciamento de Configuração_|
@@ -226,6 +230,7 @@ Os artefatos não citados nesta seção terão sua identificação padronizada e
  <tr>
   <td>Site</td>
   <td>Fontes</td>
+   <td></td>
  </tr>
 </table>
 
@@ -233,12 +238,36 @@ Os artefatos não citados nesta seção terão sua identificação padronizada e
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+As solicitações de mudança (SM) serão realizadas exclusivamente através da ferramenta de controle de mudanças Jira. Os possíveis estados de uma (SM) estão listados abaixo:
+
+| Estado                 | Descrição	     |
+|------------------------|-----------------------|
+|_Aberto_|_Este estado indica que uma SM foi cadastrada no Jira mas ainda não começaram a resolvê-la_|
+|_Iniciado_|_Indica que começou-se a resolução da SM_|
+|_Resolvido_|_Indica que a SM foi resolvida e está pronta para testes_|
+|_Em Teste_|_Indica que a SM está em testes pela equipe de testadores. (Este estado não faz parte dos estados padrão do Jira mas é útil para indicar que uma SM está em testes e evitar que testadores peguem a mesma SM para testar)_|
+|_Reaberto_|_Indica que foi encontrado algum erro no teste e a SM ficará aberta novamente para que se resolvam os erros_|
+|_Fechado_|_Indica que finalizou o ciclo da SM. Este estado inclui um motivo da finalização do ciclo, que são: "Resolvido" e "Não pôde reproduzir"_|
+
+
+
+O diagrama abaixo apresenta a máquina de estados (estados e transições possíveis) de uma SM neste projeto:
+
+![Image](http://dec.imghost.us/pJ75.png?raw=true)
+
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+As Solicitações de Mudança deverão passar pelo CCB, que analisará o impacto dessa mudança, verificando: 
+ * os riscos envolvidos, como quantidade de código alterado e funcionalidades complexas que serão alteradas;
+ * analisará o custo benefício da mudança, fazendo um balanceamento entre sua prioridade + necessidade e o custo + risco de sua implantação.
+As solicitações serão analisadas pelo comitê (CCB), que deve ter todos os seus membros presentes para garantir que a SM foi analisada sob todos os pontos de vista possíveis e necessários. O CCB será formado por equipe multidisciplinar, contendo no mínimo uma pessoa das seguintes áreas (programador, analista, gerente de projetos). O quadro abaixo apresenta os menbros do CCB.
 
-
+| Menbro                 | Responsabilidade	     |
+|------------------------|-----------------------|
+|_João Paulo (Gerente)_|_Organizar, facilitar e conduzir a reunião do CCB e anotar o parecer final para que seja este levado adiante_|
+|_Sergio (Analista)_|_Verificar a real necessidade da SM e se esta faz sentido, verificando sua conformiade com padrões adotados no sistema e seu escopo_|
+|_Bruno (Programador)_|_Verificar o risco da implementação da mudança, levando em conta as alterações que deverão ser realizadas no código; verificar a viabilidade da mudança e estimar o tempo necessário_|
 
 4. Padrões e Procedimentos
 ==========================
