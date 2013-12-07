@@ -166,7 +166,14 @@ O versionamento dos artefatos dar-se-á da seguinte forma:
 * a cada versão interdiária o valor de YY aumenta em uma unidade;
 * a cada versão estável do artefato o valor de YY é zerado e o valor de X é incrementado em uma unidade.
 
-#### 3.1.1.3 Outras nomenclaturas
+#### 3.1.1.3 Nomenclatura de branches e tags
+
+* Os branches locais não são controlados pelo nosso GCS, portanto podem ser nomeados de qualquer forma.
+Os branches remotos serão nomeados seguindo o seguinte padrão:
+nomeDoTrackBranch_idDaFuncionalidadeNoJira_descricaoDaFuncionalidade, onde "nomeDoTrackBranch" é o nome do branch de origem.
+* As tags deverão ser geradas a cada nova versão entregue do sistema. Estas serão nomeadas seguindo o seguinte padrão: V1.0, onde o "V" é um prefixo e o "1.0" é a versão do software gerado.
+
+#### 3.1.1.4 Outras nomenclaturas
 
 Os artefatos não citados nesta seção terão sua identificação padronizada e diferenciada apenas pelo diretório em que se encontram e não pelo nome do arquivo.
 
