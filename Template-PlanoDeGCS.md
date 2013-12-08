@@ -5,7 +5,6 @@ Plano de Gerenciamento de Configuração
 Versão 1.03
 ------------------
 
-
 Histórico de Versões
 --------------------
 
@@ -278,16 +277,83 @@ As solicitações serão analisadas pelo comitê (CCB), que deve ter todos os se
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
 
+Nesta seção, serão apresentados os padrões utilizados no projeto tais como, identificadores, nomes de arquivos, nomes de tags, nomes de branches, versionamento (sistema, documentos, e baselines).
+
+Projeto .:        certidaoConcursosPublicos
+
+Identificador.: PRJ SADES 013 
+
+Caminho.:      
+http://srvapp.jfce.jus.br/desenvolvimento/documentacaosades/projetos/PRJ SADES 013 - certidaoConcursosPublicos
+
+Identificadores de Tipos de Artefatos
+Identificador  - Descrição
+ARQ  - Documento de Arquitetura do Sistema
+
+DOC  - Documento não classificado
+
+I18N  - Tabela de Internacionalização
+
+MAD  - Modelo de Análise e Projeto
+
+MAN  - Manual
+
+MBD  - Esquema do Banco de Dados
+
+MRT  - Matriz de Ratreabilidade de Requisitos
+
+REQ  - Especificação de Requisitos de Software
+
+TSTD - Projeto de Testes
 
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+Descrição dos treinamentos efetuados para os integrantes do Grupo.
+
+Treinamento no Repositório.: 	Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo, tendo como alvo toda a equipe.
 
 
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+Finalidade
+
+ - Determinar que uma baseline contém todos os artefatos necessários
+
+ - Determinar que uma baseline atende aos requisitos
+
+Passos:
+
+1) Executar Auditoria de Configuração Física.
+
+Uma Auditoria de Configuração Física (PCA) identifica os componentes de um produto que serão implantados do Repositório do Projeto.  Os passos são:
+
+ - Identificar a baseline a ser implantada (geralmente é apenas um nome e/ou número, mas também pode ser uma lista completa de todos os componentes e suas respectivas versões).
+
+ - Confirmar que todos os artefatos necessários, conforme especificado pelo Caso de Desenvolvimento, estão presentes na baseline.  Liste os artefatos ausentes em Descobertas da Auditoria de Configuração.
+
+2) Executar Auditoria de Configuração Funcional
+
+Uma Auditoria de Configuração Funcional (FCA) confirma que uma baseline atende aos requisitos estabelecidos para ela.  Os passos para a execução dessa auditoria são:
+
+ - Preparar um relatório que liste cada requisito estabelecido para a baseline, seu procedimento de teste correspondente e o resultado de teste (aprovado/reprovado) da baseline.  
+
+ - Confirmar que cada requisito passou por um ou mais testes e que o resultado de todos esses testes foi 'aprovado'.  Em Descobertas da Auditoria de Configuração, liste quaisquer requisitos que não tenham passado por procedimentos de teste e os requisitos que estão com teste incompleto ou que foram reprovados. 
+
+ - Gerar uma lista das CRs estabelecidas para essa baseline.  Confirme que cada CR foi fechada.  Em Descobertas da Auditoria de Configuração, liste quaisquer CRs que não estão fechadas.
+
+3) Reportar Descobertas
+
+Se houver alguma discrepância, ela será capturada em Descobertas da Auditoria de Configuração conforme descrito anteriormente.  Além disso, os seguintes passos deverão ser executados:
+
+ - Identificar ações corretivas.  Talvez, isso requeira a entrevista de vários membros da equipe do projeto para que a origem da discrepância e as ações apropriadas sejam identificadas.  
+
+ - Para artefatos ausentes, a ação apropriada é geralmente controlar a configuração do artefato ou criar uma CR ou tarefa que produzirá o artefato ausente.
+
+ - No caso de requisitos não testados ou reprovados no teste, o requisito pode ser estabelecido para uma baseline posterior ou negociado para ser removido do conjunto de requisitos.
+
+ - Para CRs em aberto, a CR pode ser simplesmente fechada, testada ou adiada para uma baseline posterior.
+
+ - Para cada ação corretiva, atribua uma responsabilidade e determine uma data de conclusão.
